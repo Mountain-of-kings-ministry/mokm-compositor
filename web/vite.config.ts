@@ -15,7 +15,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   // This is the CRITICAL fix for Asset 404s
-  // base: "/mokm-compositor",
+  base: "/mokm-compositor",
 
   plugins: [tailwindcss(), reactRouter()],
   resolve: {

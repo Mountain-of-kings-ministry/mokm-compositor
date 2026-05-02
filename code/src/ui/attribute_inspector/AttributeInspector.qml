@@ -19,7 +19,7 @@ Item {
             
             Text {
                 anchors.centerIn: parent
-                text: "INSPECTOR"
+                text: "ATTRIBUTE INSPECTOR"
                 font: Theme.smallFontBold
                 color: Theme.textSecondary
             }
@@ -34,37 +34,69 @@ Item {
                 width: parent.width
                 spacing: 1
 
-                // Group 1
+                // Node Section
                 Rectangle {
                     Layout.fillWidth: true
                     Layout.preferredHeight: 24
                     color: Theme.panel
-                    opacity: 0.5
-                    Text { anchors.left: parent.left; anchors.leftMargin: 8; anchors.verticalCenter: parent.verticalCenter; text: "PROJECT PROPERTIES"; font: Theme.monoFont; color: Theme.textPrimary }
+                    Text { anchors.left: parent.left; anchors.leftMargin: 8; anchors.verticalCenter: parent.verticalCenter; text: "NODE: GRADE_01"; font: Theme.monoFont; color: Theme.primary }
                 }
 
-                Repeater {
-                    model: [
-                        { name: "Language", value: "C++20" },
-                        { name: "Framework", value: "Qt 6.5" },
-                        { name: "Vector Engine", value: "ThorVG" },
-                        { name: "3D Engine", value: "Filament" }
-                    ]
-                    delegate: RowLayout {
+                ColumnLayout {
+                    Layout.fillWidth: true
+                    Layout.margins: 12
+                    spacing: 12
+
+                    // Transform Group
+                    ColumnLayout {
                         Layout.fillWidth: true
-                        Layout.preferredHeight: 32
-                        Layout.leftMargin: 8
-                        Layout.rightMargin: 8
+                        spacing: 8
+                        Text { text: "TRANSFORM"; font: Theme.smallFontBold; color: Theme.textSecondary }
                         
-                        Text { text: modelData.name; font: Theme.smallFont; color: Theme.textSecondary; Layout.preferredWidth: 100 }
-                        Rectangle {
-                            Layout.fillWidth: true
-                            Layout.preferredHeight: 24
-                            color: Theme.base
-                            border.color: Theme.border
-                            radius: 2
-                            Text { anchors.centerIn: parent; text: modelData.value; font: Theme.monoFont; color: Theme.primary }
+                        RowLayout {
+                            Text { text: "Position"; font: Theme.smallFont; color: Theme.textSecondary; Layout.preferredWidth: 60 }
+                            TextField { text: "960"; font: Theme.monoFont; Layout.fillWidth: true; background: Rectangle { color: Theme.base; radius: 4; border.color: Theme.border } }
+                            TextField { text: "540"; font: Theme.monoFont; Layout.fillWidth: true; background: Rectangle { color: Theme.base; radius: 4; border.color: Theme.border } }
                         }
+                        RowLayout {
+                            Text { text: "Scale"; font: Theme.smallFont; color: Theme.textSecondary; Layout.preferredWidth: 60 }
+                            Slider { Layout.fillWidth: true; from: 0; to: 2; value: 1.0 }
+                            Text { text: "1.00"; font: Theme.monoFont; color: Theme.primary; Layout.preferredWidth: 30 }
+                        }
+                    }
+
+                    Rectangle { Layout.fillWidth: true; height: 1; color: Theme.border; opacity: 0.5 }
+
+                    // Color Correction Group
+                    ColumnLayout {
+                        Layout.fillWidth: true
+                        spacing: 8
+                        Text { text: "COLOR CORRECTION"; font: Theme.smallFontBold; color: Theme.textSecondary }
+                        
+                        RowLayout {
+                            Text { text: "Exposure"; font: Theme.smallFont; color: Theme.textSecondary; Layout.preferredWidth: 60 }
+                            Slider { Layout.fillWidth: true; from: -5; to: 5; value: 0.5 }
+                            Text { text: "+0.5"; font: Theme.monoFont; color: Theme.primary; Layout.preferredWidth: 30 }
+                        }
+                        RowLayout {
+                            Text { text: "Gamma"; font: Theme.smallFont; color: Theme.textSecondary; Layout.preferredWidth: 60 }
+                            Slider { Layout.fillWidth: true; from: 0.1; to: 4; value: 1.0 }
+                            Text { text: "1.00"; font: Theme.monoFont; color: Theme.primary; Layout.preferredWidth: 30 }
+                        }
+                        RowLayout {
+                            Text { text: "Saturation"; font: Theme.smallFont; color: Theme.textSecondary; Layout.preferredWidth: 60 }
+                            Slider { Layout.fillWidth: true; from: 0; to: 2; value: 1.2 }
+                            Text { text: "1.20"; font: Theme.monoFont; color: Theme.primary; Layout.preferredWidth: 30 }
+                        }
+                    }
+                    
+                    Rectangle { Layout.fillWidth: true; height: 1; color: Theme.border; opacity: 0.5 }
+
+                    // Masking
+                    RowLayout {
+                        Layout.fillWidth: true
+                        Text { text: "Enable Masking"; font: Theme.smallFont; color: Theme.textSecondary; Layout.fillWidth: true }
+                        CheckBox { checked: false }
                     }
                 }
             }
