@@ -1,5 +1,5 @@
 <RCC>
-  <qresource prefix="/untitled/">
+  <qresource prefix="/mokmcompositor/">
     <file alias="src/ui/Main.qml">/home/david/Documents/projects/software/MOKM compositor/code/src/ui/Main.qml</file>
     <file alias="src/ui/Theme.qml">/home/david/Documents/projects/software/MOKM compositor/code/src/ui/Theme.qml</file>
     <file alias="src/ui/media_bin/MediaBinWorkspace.qml">/home/david/Documents/projects/software/MOKM compositor/code/src/ui/media_bin/MediaBinWorkspace.qml</file>

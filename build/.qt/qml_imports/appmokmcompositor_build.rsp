@@ -6,9 +6,9 @@
 -importPath
 /home/david/Documents/projects/software/MOKM compositor/build
 -importPath
-/home/david/Documents/projects/software/MOKM compositor/build/untitled
+/home/david/Documents/projects/software/MOKM compositor/build/mokmcompositor
 -importPath
 /home/david/Qt/6.11.0/gcc_64/qml
 -qrcFiles
-/home/david/Documents/projects/software/MOKM compositor/build/.qt/rcc/qmake_untitled.qrc
+/home/david/Documents/projects/software/MOKM compositor/build/.qt/rcc/qmake_mokmcompositor.qrc
 /home/david/Documents/projects/software/MOKM compositor/build/.qt/rcc/appmokmcompositor_raw_qml_0.qrc
