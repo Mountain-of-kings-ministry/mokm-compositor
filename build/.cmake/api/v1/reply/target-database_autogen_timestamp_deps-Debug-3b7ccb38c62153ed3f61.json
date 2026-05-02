@@ -1,0 +1,68 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/functions/database/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ffmpeg_wrapper::@0d3a11b6cc0461705112"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "database_autogen_timestamp_deps::@12fc7786b644c6b94b06",
+	"isGeneratorProvided" : true,
+	"name" : "database_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/functions/database",
+		"source" : "src/functions/database"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/david/Documents/projects/software/MOKM compositor/build/src/functions/database/CMakeFiles/database_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/david/Documents/projects/software/MOKM compositor/build/src/functions/database/CMakeFiles/database_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

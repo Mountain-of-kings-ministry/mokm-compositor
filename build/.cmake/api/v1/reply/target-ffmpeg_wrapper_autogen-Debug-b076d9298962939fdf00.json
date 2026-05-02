@@ -1,0 +1,75 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/functions/ffmpeg_wrapper/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ffmpeg_wrapper_autogen_timestamp_deps::@0d3a11b6cc0461705112"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "ffmpeg_wrapper_autogen::@0d3a11b6cc0461705112",
+	"isGeneratorProvided" : true,
+	"name" : "ffmpeg_wrapper_autogen",
+	"paths" : 
+	{
+		"build" : "src/functions/ffmpeg_wrapper",
+		"source" : "src/functions/ffmpeg_wrapper"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/david/Documents/projects/software/MOKM compositor/build/src/functions/ffmpeg_wrapper/CMakeFiles/ffmpeg_wrapper_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/david/Documents/projects/software/MOKM compositor/build/src/functions/ffmpeg_wrapper/CMakeFiles/ffmpeg_wrapper_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/david/Documents/projects/software/MOKM compositor/build/src/functions/ffmpeg_wrapper/ffmpeg_wrapper_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

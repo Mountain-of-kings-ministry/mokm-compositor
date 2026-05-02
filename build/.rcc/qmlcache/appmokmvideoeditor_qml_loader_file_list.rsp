@@ -1,0 +1,24 @@
+--resource
+/home/david/Documents/projects/software/MOKM compositor/build/.qt/rcc/qmake_untitled.qrc
+--resource
+/home/david/Documents/projects/software/MOKM compositor/build/.qt/rcc/appmokmcompositor_raw_qml_0.qrc
+--resource
+/home/david/Documents/projects/software/MOKM compositor/build/.qt/rcc/appmokmcompositor_raw_res_0.qrc
+/untitled/src/ui/Main.qml
+/untitled/src/ui/Theme.qml
+/untitled/src/ui/media_bin/MediaBinWorkspace.qml
+/untitled/src/ui/video_editor/VideoEditorWorkspace.qml
+/untitled/src/ui/node_editor/NodeEditorWorkspace.qml
+/untitled/src/ui/color_grading_editor/ColorGradingWorkspace.qml
+/untitled/src/ui/audio_editor/AudioMixingWorkspace.qml
+/untitled/src/ui/export_page/ExportWorkspace.qml
+/untitled/src/ui/attribute_inspector/AttributeInspector.qml
+/untitled/src/ui/keyframe_editor/KeyframeEditor.qml
+/untitled/src/ui/marker_list/MarkerList.qml
+/untitled/src/ui/effects_browser/EffectsBrowser.qml
+/untitled/src/ui/history_panel/HistoryPanel.qml
+/untitled/src/ui/project_settings/ProjectSettingsModal.qml
+/untitled/src/ui/preferences/PreferencesModal.qml
+/untitled/src/ui/proxy_manager/ProxyDashboard.qml
+/untitled/src/ui/plugin_manager/PluginManagerModal.qml
+/untitled/src/ui/keyboard_shortcuts/ShortcutMapper.qml

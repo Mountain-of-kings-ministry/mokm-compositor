@@ -1,0 +1,600 @@
+{
+  "configurations": [
+    {
+      "directories": [
+        {
+          "build": ".",
+          "childIndexes": [1],
+          "hasInstallRule": true,
+          "jsonFile": "directory-.-Debug-f9517696fe5482960202.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "projectIndex": 0,
+          "source": ".",
+          "targetIndexes": [
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 23, 27, 28
+          ]
+        },
+        {
+          "build": "src",
+          "childIndexes": [2, 20, 32],
+          "jsonFile": "directory-src-Debug-b6cf2213fc5053b67c22.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 0,
+          "projectIndex": 0,
+          "source": "src"
+        },
+        {
+          "build": "src/ui",
+          "childIndexes": [
+            3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+          ],
+          "jsonFile": "directory-src.ui-Debug-c1f78044602f134edac6.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 1,
+          "projectIndex": 0,
+          "source": "src/ui"
+        },
+        {
+          "build": "src/ui/audio_editor",
+          "jsonFile": "directory-src.ui.audio_editor-Debug-a4f72a4b2cd63c5c31a6.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/audio_editor"
+        },
+        {
+          "build": "src/ui/color_grading_editor",
+          "jsonFile": "directory-src.ui.color_grading_editor-Debug-48a14d4027f073ac5501.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/color_grading_editor"
+        },
+        {
+          "build": "src/ui/export_page",
+          "jsonFile": "directory-src.ui.export_page-Debug-a0d9bba1aeecd931c647.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/export_page"
+        },
+        {
+          "build": "src/ui/node_editor",
+          "jsonFile": "directory-src.ui.node_editor-Debug-bcba4ccc10182b73d45f.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/node_editor"
+        },
+        {
+          "build": "src/ui/preferences",
+          "jsonFile": "directory-src.ui.preferences-Debug-5e9ff31856e35754ff7c.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/preferences"
+        },
+        {
+          "build": "src/ui/project_settings",
+          "jsonFile": "directory-src.ui.project_settings-Debug-702e81ae505f1ec599db.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/project_settings"
+        },
+        {
+          "build": "src/ui/proxy_manager",
+          "jsonFile": "directory-src.ui.proxy_manager-Debug-0088a771a86647816ba8.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/proxy_manager"
+        },
+        {
+          "build": "src/ui/video_editor",
+          "jsonFile": "directory-src.ui.video_editor-Debug-dad13463e7ba79690e87.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/video_editor"
+        },
+        {
+          "build": "src/ui/media_bin",
+          "jsonFile": "directory-src.ui.media_bin-Debug-1d4c26ccd95c25bafbe9.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/media_bin"
+        },
+        {
+          "build": "src/ui/timeline",
+          "jsonFile": "directory-src.ui.timeline-Debug-fea383778a4c58ac8dea.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/timeline"
+        },
+        {
+          "build": "src/ui/attribute_inspector",
+          "jsonFile": "directory-src.ui.attribute_inspector-Debug-aa06918e05963b73723c.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/attribute_inspector"
+        },
+        {
+          "build": "src/ui/keyframe_editor",
+          "jsonFile": "directory-src.ui.keyframe_editor-Debug-34c689558c89501eaf58.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/keyframe_editor"
+        },
+        {
+          "build": "src/ui/marker_list",
+          "jsonFile": "directory-src.ui.marker_list-Debug-b014cd983181e1ef09db.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/marker_list"
+        },
+        {
+          "build": "src/ui/effects_browser",
+          "jsonFile": "directory-src.ui.effects_browser-Debug-3e085a3c07f7140c9c6b.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/effects_browser"
+        },
+        {
+          "build": "src/ui/history_panel",
+          "jsonFile": "directory-src.ui.history_panel-Debug-7aada83edb7adbd7253e.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/history_panel"
+        },
+        {
+          "build": "src/ui/plugin_manager",
+          "jsonFile": "directory-src.ui.plugin_manager-Debug-f06c5f9fa9cfa7f336e8.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/plugin_manager"
+        },
+        {
+          "build": "src/ui/keyboard_shortcuts",
+          "jsonFile": "directory-src.ui.keyboard_shortcuts-Debug-93812d00d96a57489d72.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 2,
+          "projectIndex": 0,
+          "source": "src/ui/keyboard_shortcuts"
+        },
+        {
+          "build": "src/functions",
+          "childIndexes": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
+          "jsonFile": "directory-src.functions-Debug-d5c5296e225df6af6078.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 1,
+          "projectIndex": 0,
+          "source": "src/functions"
+        },
+        {
+          "build": "src/functions/animation",
+          "jsonFile": "directory-src.functions.animation-Debug-ff168e265c2a22062d0d.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 20,
+          "projectIndex": 0,
+          "source": "src/functions/animation"
+        },
+        {
+          "build": "src/functions/audio",
+          "jsonFile": "directory-src.functions.audio-Debug-815586698e415dfe0117.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 20,
+          "projectIndex": 0,
+          "source": "src/functions/audio"
+        },
+        {
+          "build": "src/functions/nodes",
+          "jsonFile": "directory-src.functions.nodes-Debug-59fe9fd5e6caa0147558.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 20,
+          "projectIndex": 0,
+          "source": "src/functions/nodes"
+        },
+        {
+          "build": "src/functions/plugins",
+          "jsonFile": "directory-src.functions.plugins-Debug-3049bceaa6fcecc623d5.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 20,
+          "projectIndex": 0,
+          "source": "src/functions/plugins"
+        },
+        {
+          "build": "src/functions/video",
+          "jsonFile": "directory-src.functions.video-Debug-df07005320a26ed07a8f.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 20,
+          "projectIndex": 0,
+          "source": "src/functions/video"
+        },
+        {
+          "build": "src/functions/core",
+          "jsonFile": "directory-src.functions.core-Debug-0a8f9bd41780aa63900c.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 20,
+          "projectIndex": 0,
+          "source": "src/functions/core",
+          "targetIndexes": [17, 18, 19]
+        },
+        {
+          "build": "src/functions/rendering",
+          "jsonFile": "directory-src.functions.rendering-Debug-79c4e8be95552ab74e0e.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 20,
+          "projectIndex": 0,
+          "source": "src/functions/rendering"
+        },
+        {
+          "build": "src/functions/database",
+          "jsonFile": "directory-src.functions.database-Debug-5a625a3d16678ad801eb.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 20,
+          "projectIndex": 0,
+          "source": "src/functions/database",
+          "targetIndexes": [20, 21, 22]
+        },
+        {
+          "build": "src/functions/ffmpeg_wrapper",
+          "jsonFile": "directory-src.functions.ffmpeg_wrapper-Debug-ff0fe0c57831e4844d29.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 20,
+          "projectIndex": 0,
+          "source": "src/functions/ffmpeg_wrapper",
+          "targetIndexes": [24, 25, 26]
+        },
+        {
+          "build": "src/functions/proxy",
+          "jsonFile": "directory-src.functions.proxy-Debug-648eb271a0c8a00d2963.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 20,
+          "projectIndex": 0,
+          "source": "src/functions/proxy"
+        },
+        {
+          "build": "src/functions/timeline",
+          "jsonFile": "directory-src.functions.timeline-Debug-728a9738781bc5861090.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 20,
+          "projectIndex": 0,
+          "source": "src/functions/timeline",
+          "targetIndexes": [29, 30, 31]
+        },
+        {
+          "build": "src/third_party",
+          "jsonFile": "directory-src.third_party-Debug-061eb36f00609c19c943.json",
+          "minimumCMakeVersion": {
+            "string": "3.16"
+          },
+          "parentIndex": 1,
+          "projectIndex": 0,
+          "source": "src/third_party"
+        }
+      ],
+      "name": "Debug",
+      "projects": [
+        {
+          "directoryIndexes": [
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+            19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32
+          ],
+          "name": "untitled",
+          "targetIndexes": [
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+            19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "directoryIndex": 0,
+          "id": "all_aotstats::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-all_aotstats-Debug-e845958bb029a5bb7e75.json",
+          "name": "all_aotstats",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "all_qmllint::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-all_qmllint-Debug-656b95a4a92cba87ec33.json",
+          "name": "all_qmllint",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "all_qmllint_json::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-all_qmllint_json-Debug-1082e8494793eb5b3c11.json",
+          "name": "all_qmllint_json",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "all_qmllint_module::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-all_qmllint_module-Debug-39a633e4b1abf99af1f4.json",
+          "name": "all_qmllint_module",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-all_qmltyperegistrations-Debug-0f04533a9f3c5969a458.json",
+          "name": "all_qmltyperegistrations",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "appmokmcompositor::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-appmokmcompositor-Debug-5a3d39b3eb3baf5a4d29.json",
+          "name": "appmokmcompositor",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "appmokmcompositor_autogen::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-appmokmcompositor_autogen-Debug-107786054241addfc78f.json",
+          "name": "appmokmcompositor_autogen",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "appmokmcompositor_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-appmokmcompositor_autogen_timestamp_deps-Debug-78de511a39bb070f07bd.json",
+          "name": "appmokmcompositor_autogen_timestamp_deps",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "appmokmcompositor_copy_qml::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-appmokmcompositor_copy_qml-Debug-bd5bbf0cf1a426fbed54.json",
+          "name": "appmokmcompositor_copy_qml",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "appmokmcompositor_copy_res::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-appmokmcompositor_copy_res-Debug-ad238344db8cdf5ceecf.json",
+          "name": "appmokmcompositor_copy_res",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "appmokmcompositor_generate_qmlls_ini_file::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-appmokmcompositor_generate_qmlls_ini_file-Debug-6eae72044a2f31958377.json",
+          "name": "appmokmcompositor_generate_qmlls_ini_file",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "appmokmcompositor_qmlimportscan::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-appmokmcompositor_qmlimportscan-Debug-91a7541b5ddf22fc09ac.json",
+          "name": "appmokmcompositor_qmlimportscan",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "appmokmcompositor_qmllint::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-appmokmcompositor_qmllint-Debug-3a8becb3efa4abcf4367.json",
+          "name": "appmokmcompositor_qmllint",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "appmokmcompositor_qmllint_json::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-appmokmcompositor_qmllint_json-Debug-3fbc631ee77f9ed0d30e.json",
+          "name": "appmokmcompositor_qmllint_json",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "appmokmcompositor_qmllint_module::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-appmokmcompositor_qmllint_module-Debug-873477ec874910ea23ce.json",
+          "name": "appmokmcompositor_qmllint_module",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "appmokmcompositor_qmltyperegistration::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-appmokmcompositor_qmltyperegistration-Debug-380c84b005f62e066671.json",
+          "name": "appmokmcompositor_qmltyperegistration",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-clean_qml_context_properties-Debug-448887c31587ca49a63f.json",
+          "name": "clean_qml_context_properties",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 26,
+          "id": "core::@bc4dd7b3ae7e6220165e",
+          "jsonFile": "target-core-Debug-16baa74c41d36771dca7.json",
+          "name": "core",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 26,
+          "id": "core_autogen::@bc4dd7b3ae7e6220165e",
+          "jsonFile": "target-core_autogen-Debug-cf8b11c46a6ba36cc835.json",
+          "name": "core_autogen",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 26,
+          "id": "core_autogen_timestamp_deps::@bc4dd7b3ae7e6220165e",
+          "jsonFile": "target-core_autogen_timestamp_deps-Debug-1b090a46f9d18c8e6c71.json",
+          "name": "core_autogen_timestamp_deps",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 28,
+          "id": "database::@12fc7786b644c6b94b06",
+          "jsonFile": "target-database-Debug-14a3eec91c83337a338f.json",
+          "name": "database",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 28,
+          "id": "database_autogen::@12fc7786b644c6b94b06",
+          "jsonFile": "target-database_autogen-Debug-0cdb31cc73ab86d804a4.json",
+          "name": "database_autogen",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 28,
+          "id": "database_autogen_timestamp_deps::@12fc7786b644c6b94b06",
+          "jsonFile": "target-database_autogen_timestamp_deps-Debug-3b7ccb38c62153ed3f61.json",
+          "name": "database_autogen_timestamp_deps",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-dump_qml_context_properties-Debug-13f09a2fd24739f0d4f2.json",
+          "name": "dump_qml_context_properties",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 29,
+          "id": "ffmpeg_wrapper::@0d3a11b6cc0461705112",
+          "jsonFile": "target-ffmpeg_wrapper-Debug-0caa2826d47d502c7d8e.json",
+          "name": "ffmpeg_wrapper",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 29,
+          "id": "ffmpeg_wrapper_autogen::@0d3a11b6cc0461705112",
+          "jsonFile": "target-ffmpeg_wrapper_autogen-Debug-b076d9298962939fdf00.json",
+          "name": "ffmpeg_wrapper_autogen",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 29,
+          "id": "ffmpeg_wrapper_autogen_timestamp_deps::@0d3a11b6cc0461705112",
+          "jsonFile": "target-ffmpeg_wrapper_autogen_timestamp_deps-Debug-e31ee5ebfb5adb9411a7.json",
+          "name": "ffmpeg_wrapper_autogen_timestamp_deps",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-generate_qmlls_build_ini_file-Debug-6f73f798a37a664d3593.json",
+          "name": "generate_qmlls_build_ini_file",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "module_appmokmcompositor_aotstats_target::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-module_appmokmcompositor_aotstats_target-Debug-419f2a5c86e9cb3658dd.json",
+          "name": "module_appmokmcompositor_aotstats_target",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 31,
+          "id": "timeline_functions::@c8cb44610dd252be4415",
+          "jsonFile": "target-timeline_functions-Debug-cb7ced3cac87b7e21f41.json",
+          "name": "timeline_functions",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 31,
+          "id": "timeline_functions_autogen::@c8cb44610dd252be4415",
+          "jsonFile": "target-timeline_functions_autogen-Debug-e1e1b4a327e1c837b9bc.json",
+          "name": "timeline_functions_autogen",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 31,
+          "id": "timeline_functions_autogen_timestamp_deps::@c8cb44610dd252be4415",
+          "jsonFile": "target-timeline_functions_autogen_timestamp_deps-Debug-6378f41a187399ec280c.json",
+          "name": "timeline_functions_autogen_timestamp_deps",
+          "projectIndex": 0
+        }
+      ]
+    }
+  ],
+  "kind": "codemodel",
+  "paths": {
+    "build": "/home/david/Documents/projects/software/MOKM compositor/build",
+    "source": "/home/david/Documents/projects/software/MOKM compositor/code"
+  },
+  "version": {
+    "major": 2,
+    "minor": 6
+  }
+}

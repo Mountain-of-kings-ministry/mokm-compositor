@@ -1,0 +1,103 @@
+{
+	"BUILD_DIR" : "/home/david/Documents/projects/software/MOKM compositor/build/src/functions/database/database_autogen",
+	"CMAKE_BINARY_DIR" : "/home/david/Documents/projects/software/MOKM compositor/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/david/Documents/projects/software/MOKM compositor/build/src/functions/database",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/david/Documents/projects/software/MOKM compositor/code/src/functions/database",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/david/Documents/projects/software/MOKM compositor/code/src/functions/database/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/david/Documents/projects/software/MOKM compositor/code",
+	"DEP_FILE" : "/home/david/Documents/projects/software/MOKM compositor/build/src/functions/database/database_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "database_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/david/Documents/projects/software/MOKM compositor/code/src/functions/database/MediaBinModel.h",
+			"MU",
+			"EWIEGA46WW/moc_MediaBinModel.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/david/Documents/projects/software/MOKM compositor/build/src/functions/database/database_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/david/Documents/projects/software/MOKM compositor/build/src/functions/database/database_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_QMLINTEGRATION_LIB",
+		"QT_QML_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/david/Documents/projects/software/MOKM compositor/code/src/functions/database",
+		"/home/david/Documents/projects/software/MOKM compositor/code/src/functions/ffmpeg_wrapper",
+		"/home/david/Qt/6.11.0/gcc_64/include/QtCore",
+		"/home/david/Qt/6.11.0/gcc_64/include",
+		"/home/david/Qt/6.11.0/gcc_64/mkspecs/linux-g++",
+		"/home/david/Qt/6.11.0/gcc_64/include/QtQml",
+		"/home/david/Qt/6.11.0/gcc_64/include/QtQmlIntegration",
+		"/home/david/Qt/6.11.0/gcc_64/include/QtNetwork",
+		"/home/david/Qt/6.11.0/gcc_64/include/QtGui",
+		"/usr/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include/c++/13",
+		"/usr/include/x86_64-linux-gnu/c++/13",
+		"/usr/include/c++/13/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/13/include",
+		"/usr/local/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/david/Documents/projects/software/MOKM compositor/build/src/functions/database/database_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/david/Documents/projects/software/MOKM compositor/build/src/functions/database/CMakeFiles/database_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/david/Qt/6.11.0/gcc_64/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 11,
+	"SETTINGS_FILE" : "/home/david/Documents/projects/software/MOKM compositor/build/src/functions/database/CMakeFiles/database_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/david/Documents/projects/software/MOKM compositor/code/src/functions/database/MediaBinModel.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

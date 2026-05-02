@@ -1,0 +1,16 @@
+module untitled
+typeinfo appmokmcompositor.qmltypes
+prefer :/untitled/
+Main 1.0 src/ui/Main.qml
+singleton Theme 1.0 src/ui/Theme.qml
+MediaBinWorkspace 1.0 src/ui/media_bin/MediaBinWorkspace.qml
+NodeEditorWorkspace 1.0 src/ui/node_editor/NodeEditorWorkspace.qml
+TimelineWorkspace 1.0 src/ui/timeline/TimelineWorkspace.qml
+AttributeInspector 1.0 src/ui/attribute_inspector/AttributeInspector.qml
+ProjectSettingsModal 1.0 src/ui/project_settings/ProjectSettingsModal.qml
+PreferencesModal 1.0 src/ui/preferences/PreferencesModal.qml
+ProxyDashboard 1.0 src/ui/proxy_manager/ProxyDashboard.qml
+PluginManagerModal 1.0 src/ui/plugin_manager/PluginManagerModal.qml
+ShortcutMapper 1.0 src/ui/keyboard_shortcuts/ShortcutMapper.qml
+depends QtQuick
+

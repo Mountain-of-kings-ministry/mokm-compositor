@@ -1,0 +1,16 @@
+-I
+/home/david/Documents/projects/software/MOKM compositor/build
+-I
+/home/david/Documents/projects/software/MOKM compositor/build/untitled
+-I
+/home/david/Documents/projects/software/MOKM compositor/build
+-I
+/home/david/Qt/6.11.0/gcc_64/qml
+--resource
+/home/david/Documents/projects/software/MOKM compositor/build/.qt/rcc/qmake_untitled.qrc
+--resource
+/home/david/Documents/projects/software/MOKM compositor/build/.qt/rcc/appmokmcompositor_raw_qml_0.qrc
+--resource
+/home/david/Documents/projects/software/MOKM compositor/build/.qt/rcc/appmokmcompositor_raw_res_0.qrc
+--module
+untitled

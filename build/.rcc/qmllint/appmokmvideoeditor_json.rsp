@@ -1,0 +1,35 @@
+--bare
+-I
+/home/david/Documents/projects/software/MOKM compositor/build
+-I
+/home/david/Documents/projects/software/MOKM compositor/build/untitled
+-I
+/home/david/Documents/projects/software/MOKM compositor/build
+-I
+/home/david/Qt/6.11.0/gcc_64/qml
+--resource
+/home/david/Documents/projects/software/MOKM compositor/build/.qt/rcc/qmake_untitled.qrc
+--resource
+/home/david/Documents/projects/software/MOKM compositor/build/.qt/rcc/appmokmcompositor_raw_qml_0.qrc
+--resource
+/home/david/Documents/projects/software/MOKM compositor/build/.qt/rcc/appmokmcompositor_raw_res_0.qrc
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/Main.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/Theme.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/media_bin/MediaBinWorkspace.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/video_editor/VideoEditorWorkspace.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/node_editor/NodeEditorWorkspace.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/color_grading_editor/ColorGradingWorkspace.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/audio_editor/AudioMixingWorkspace.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/export_page/ExportWorkspace.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/attribute_inspector/AttributeInspector.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/keyframe_editor/KeyframeEditor.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/marker_list/MarkerList.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/effects_browser/EffectsBrowser.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/history_panel/HistoryPanel.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/project_settings/ProjectSettingsModal.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/preferences/PreferencesModal.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/proxy_manager/ProxyDashboard.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/plugin_manager/PluginManagerModal.qml
+/home/david/Documents/projects/software/MOKM compositor/code/src/ui/keyboard_shortcuts/ShortcutMapper.qml
+--json
+/home/david/Documents/projects/software/MOKM compositor/build/appmokmcompositor_qmllint.json
